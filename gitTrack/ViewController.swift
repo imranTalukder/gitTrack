@@ -12,7 +12,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        var val = 100
+        val = val * 2 * (val - 1)
+        print(val)
     }
     override func viewWillAppear(_ animated: Bool) {
         //
