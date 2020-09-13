@@ -10,12 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        var val = 100
-        val = val * 2 * (val - 1)
-        print(val)
-    }
+
     override func viewWillAppear(_ animated: Bool) {
         //
     }
@@ -25,3 +20,7 @@ class ViewController: UIViewController {
 
 }
 
+struct Data {
+    
+    
+}
